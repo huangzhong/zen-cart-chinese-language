@@ -26,7 +26,7 @@ define('DATE_FORMAT', 'Y/m/d'); // this is used for date()
 define('PHP_DATE_TIME_FORMAT', 'Y/m/d H:i:s'); // this is used for date()
 define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
 define('DATE_FORMAT_SPIFFYCAL', 'yyyy/MM/dd');  //Use only 'dd', 'MM' and 'yyyy' here in any order
-define('ADMIN_NAV_DATE_TIME_FORMAT', '%A %d %b %Y %X'); // this is used for strftime()
+define('ADMIN_NAV_DATE_TIME_FORMAT', '%Y-%m-%d %X'); // this is used for strftime()
 ////
 // Return date in raw format
 // $date should be in format yyyy/mm/dd

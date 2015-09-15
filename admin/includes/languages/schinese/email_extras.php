@@ -24,7 +24,7 @@
 // email disclaimer
   define('EMAIL_DISCLAIMER', "\n" . '该电子邮件地址是您或我们的一个客户提供的. 如果您没有登记帐号, 或者您错误接收了该邮件, 请发邮件到 %s');
   define('EMAIL_SPAM_DISCLAIMER','该电子邮件遵循美国2004年1月1日生效的反垃圾邮件条款. 退订请发到以上地址, 我们尊重您的要求.');
-  define('EMAIL_FOOTER_COPYRIGHT','版权所有 &copy; ' . date('Y') . ' <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+  define('EMAIL_FOOTER_COPYRIGHT','版权所有 &copy; ' . date('Y') . ' <a href="http://www.zen-cart.cn" target="_blank">Zen Cart 中文版</a>。Powered by <a href="http://www.zen-cart.cn" target="_blank">Zen Cart</a>');
   define('SEND_EXTRA_GV_ADMIN_EMAILS_TO_SUBJECT','[管理员已发GV]');
   define('SEND_EXTRA_DISCOUNT_COUPON_ADMIN_EMAILS_TO_SUBJECT','[优惠券]');
   define('SEND_EXTRA_ORDERS_STATUS_ADMIN_EMAILS_TO_SUBJECT','[订单状态]');

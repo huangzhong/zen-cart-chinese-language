@@ -28,7 +28,7 @@
 // email disclaimer
   define('EMAIL_DISCLAIMER', '本电子邮件地址是您或我们的客户提供的。如果您错误接收了该邮件，请发邮件到%s');
   define('EMAIL_SPAM_DISCLAIMER', '本电子邮件遵循反垃圾邮件条款。退订请发到以上地址，我们会尽快处理。');
-  define('EMAIL_FOOTER_COPYRIGHT','版权所有 (c) ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+  define('EMAIL_FOOTER_COPYRIGHT','版权所有 (c) ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Powered by <a href="http://www.zen-cart.cn" target="_blank">Zen Cart</a>');
   define('TEXT_UNSUBSCRIBE', "\n\n退定电子商情和促销邮件，请点下面的链接: \n");
 
 // email advisory for all emails customer generate - tell-a-friend and GV send

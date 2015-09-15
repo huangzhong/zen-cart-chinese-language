@@ -17,10 +17,10 @@
   define('FOOTER_TEXT_BODY', '版权所有 &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Powered by <a href="http://www.zen-cart.cn" target="_blank">Zen Cart</a>');
 
 // look in your $PATH_LOCALE/locale directory for available locales..
-  $locales = array('zh_CN', 'zh_CN.utf8', 'zh');
+  $locales = array('zh_CN.utf8');
   @setlocale(LC_TIME, $locales);
   define('DATE_FORMAT_SHORT', '%Y/%m/%d');  // this is used for strftime()
-  define('DATE_FORMAT_LONG', ' %Y年 %m月 %d日'); // this is used for strftime()
+  define('DATE_FORMAT_LONG', ' %Y/%m/%d'); // this is used for strftime()
   define('DATE_FORMAT', 'Y/m/d'); // this is used for date()
   define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
 
@@ -486,10 +486,10 @@
 
   define('TABLE_HEADING_FEATURED_PRODUCTS','推荐商品');
 
-  define('TABLE_HEADING_NEW_PRODUCTS', '%s新进商品');
+  define('TABLE_HEADING_NEW_PRODUCTS', '新进商品');
   define('TABLE_HEADING_UPCOMING_PRODUCTS', '预售商品');
   define('TABLE_HEADING_DATE_EXPECTED', '预售日期');
-  define('TABLE_HEADING_SPECIALS_INDEX', '%s特价商品');
+  define('TABLE_HEADING_SPECIALS_INDEX', '特价商品');
 
   define('CAPTION_UPCOMING_PRODUCTS','这些商品很快会到货');
   define('SUMMARY_TABLE_UPCOMING_PRODUCTS','以下是预售商品清单以及预计到货时间');

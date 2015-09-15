@@ -18,8 +18,8 @@ define('HEADER_TITLE_LOGOFF', '登出');
 define('HEADER_TITLE_LOGIN', '登录');
 
 // added defines for header alt and text
-define('HEADER_ALT_TEXT', 'Powered by Zen Cart :: 电子商务的艺术 [首页]');
-define('HEADER_SALES_TEXT', '<font size=+1><font color=#F0A480><b>欢迎使用 Zen Cart</b></font></font>');
+define('HEADER_ALT_TEXT', 'Zen Cart 中文版:: 电子商务的艺术');
+define('HEADER_SALES_TEXT', '商店广告语放这里');
 define('HEADER_LOGO_WIDTH', '200px');
 define('HEADER_LOGO_HEIGHT', '70px');
 define('HEADER_LOGO_IMAGE', 'logo.gif');
